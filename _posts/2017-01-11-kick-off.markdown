@@ -1,0 +1,12 @@
+--- 
+wordpress_id: PSD-12
+layout: post
+title: kick-off
+---
+
+Blog goes here.
+
+```bash
+
+while true; do echo "hello"; sleep 10; done;
+```

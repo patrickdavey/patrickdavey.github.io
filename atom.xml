@@ -1,0 +1,28 @@
+---
+title: atom feed
+---
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Todayish I Learned</title>
+ <link href="http://til.psdavey.com/atom.xml" rel="self"/>
+ <link href="http://til.psdavey.com"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://til.psdavey.com/</id>
+ <author>
+   <name>Patrick Davey</name>
+   <email>til@snowpool.org</email>
+ </author>
+
+ {% for post in site.posts limit:20 %}
+ <entry>
+   <title>{{ post.title | xml_escape }}</title>
+   <link href="http://til.psdavey.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://til.psdavey.com{{ post.id }}</id>
+   <content type="html"><![CDATA[{{ post.content }}]]></content>
+ </entry>
+ {% endfor %}
+ 
+</feed>

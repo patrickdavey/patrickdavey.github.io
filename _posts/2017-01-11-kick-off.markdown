@@ -4,9 +4,8 @@ layout: post
 title: kick-off
 ---
 
-Blog goes here.
+That when you're setting up a [github-pages](https://pages.github.com/) blog, that
+the easiest way (with Firefox) to remove a saved 301 redirect is to go into the
+oh-so-useful `about:config` and change the [browser.cache.check_doc_frequency](http://kb.mozillazine.org/Browser.cache.check_doc_frequency) setting from 3 to 1. Thanks [Stack Overflow](http://stackoverflow.com/a/12796598/435817)
 
-```bash
-
-while true; do echo "hello"; sleep 10; done;
-```
+Enough learning for one day ;)

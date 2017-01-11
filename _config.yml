@@ -1,5 +1,6 @@
 permalink: /:year/:month/:title
 markdown: kramdown
 gems: [jekyll-prism-plugin]
+highlighter: rouge
 redcarpet:
   extensions: [footnotes]

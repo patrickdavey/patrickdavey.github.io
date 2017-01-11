@@ -77,13 +77,15 @@ article .highlight pre {
 
 code {
   font-family: $code-font;
-  color: $coolor;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
 }
 
 article p code {
-  color: $coolor;
-  background: white;
-  padding: 2px;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
   font-size: 0.9rem;
 }
 

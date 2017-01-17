@@ -1,0 +1,12 @@
+--- 
+wordpress_id: PSD-14
+layout: post
+title: slooowly
+---
+
+I found this quite [nice site today](http://slowwly.robertomurray.co.uk/) as I was wanting to easily test some
+timeout conditions in some `net/http` calls.
+
+`"https://slowwly.herokuapp.com/delay/3000/url/http://google.com"`
+
+It will return the call to whatever the url is, after 3000ms. Perfect for timeout testing.

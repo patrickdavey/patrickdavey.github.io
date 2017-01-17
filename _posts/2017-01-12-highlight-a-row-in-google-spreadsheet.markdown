@@ -19,4 +19,4 @@ To do that in Google Spreadsheets
 5. Insert `=INDIRECT("C"&Row())="Completed"` into the box. Now, in here, `C` is the column where my status cell is, and `Completed` is the value I am after
 6. Choose your highlighting.
 
-Bob is your veritable uncle.
+Bob is your veritable uncle. 

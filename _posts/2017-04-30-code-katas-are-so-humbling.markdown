@@ -8,7 +8,7 @@ I have been working through, slowly, the ruby track on [exercism](http://exercis
 
 ### Saddle point README
 
-```plain
+```
 # Saddle Points
 
 Detect saddle points in a matrix.

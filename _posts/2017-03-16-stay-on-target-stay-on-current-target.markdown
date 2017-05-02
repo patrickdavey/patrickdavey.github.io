@@ -13,14 +13,13 @@ Unfortunately, I was looking at the `target` instead of the `currentTarget`. Bas
 HTML like this:
 
 ```html
-
-<button class="outer". data-blah="something">
-  <i class="inner">something</i>
-</button>
+  <button class="outer" data-blah="something">
+    <i class="inner">something</i>
+  </button>
 ```
 
 ```javascript
-$(document).on("click", ".outer", callSomeFunction);
+  $(document).on("click", ".outer", callSomeFunction);
 ```
 
 

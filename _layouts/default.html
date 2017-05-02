@@ -3,9 +3,9 @@
   <head>
     <title>{{ page.title }} - Patrick Davey</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Titillium+Web" rel="stylesheet">
-    <link rel='stylesheet' href='/css/style.css' media='screen'>
-    <link rel='stylesheet' href='/css/mobile.css'>
-    <link rel='stylesheet' href='/css/highlight.css'>
+    <link href="/css/style.css?bust={{ site.time | date: '%s' }}" rel="stylesheet" media="screen">
+    <link href="/css/mobile.css?bust={{ site.time | date: '%s' }}" rel="stylesheet" media="screen">
+    <link href="/css/highlight.css?bust={{ site.time | date: '%s' }}" rel="stylesheet" media="screen">
 
   <body>
     <header>
